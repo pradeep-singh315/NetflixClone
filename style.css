@@ -93,6 +93,10 @@ nav button{
 
 /* Features Section */
 .features{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row{
     display: flex;
     width: 100%;
     align-items: center;
@@ -106,4 +110,14 @@ nav button{
 .img-column{
     flex-basis: 50%;
     margin-bottom: 20px;
+}
+.img-column img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.features h2{
+     font-size: 50px;
+     font-weight: 600;
+     margin-bottom: 20px;
 }
